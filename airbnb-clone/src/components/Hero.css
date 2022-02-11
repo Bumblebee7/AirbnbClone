@@ -1,23 +1,23 @@
-.Hero__Container {
+.hero__Container {
   display: flex;
   justify-content: center;
 }
 
-.Hero__Collage {
+.hero__Collage {
   margin: 26px 0 32px 0;
 }
 
-.Hero__Punchline {
+.hero__Punchline {
   margin-left: 36px;
 }
 
-.Hero__Punchline > h1 {
+.hero__Punchline > h1 {
   font-size: 36px;
   font-weight: 600;
   line-height: 40px;
 }
 
-.Hero__Punchline > h3 {
+.hero__Punchline > h3 {
   width: 320px;
   font-size: 16px;
   font-weight: 300;

@@ -5,16 +5,16 @@ import Star from "../assets/Star_1.png";
 
 function Card() {
   return (
-    <div className="Card">
-      <img src={Image} className="Card__image"></img>
-      <div className="Card__text">
-        <p className="Card__rating">
-          <img src={Star} className="Card__rating__star"></img> 5.0{" "}
-          <span className="Card__rating__details">(6) - USA</span>
+    <div className="card">
+      <img src={Image} className="card__image"></img>
+      <div className="card__text">
+        <p className="card__rating">
+          <img src={Star} className="card__rating__star"></img> 5.0{" "}
+          <span className="card__rating__details">(6) - USA</span>
         </p>
-        <p className="Card__heading">Life lessons with Katie Zaferes</p>
+        <p className="card__heading">Life lessons with Katie Zaferes</p>
         <p>
-          <span className="Card__price">From $136</span> / person
+          <span className="card__price">From $136</span> / person
         </p>
       </div>
     </div>
