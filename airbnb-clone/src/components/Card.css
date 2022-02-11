@@ -1,0 +1,25 @@
+.Card {
+  margin: 30px;
+}
+
+.Card > p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  margin-bottom: 5px;
+}
+
+.Card__rating__star {
+  width: 14px;
+}
+
+.Card__rating__details {
+  color: #918e9b;
+}
+
+.Card__price {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13px;
+}
