@@ -7,14 +7,16 @@ function Card() {
   return (
     <div className="Card">
       <img src={Image} className="Card__image"></img>
-      <p className="Card__rating">
-        <img src={Star} className="Card__rating__star"></img> 5.0{" "}
-        <a className="Card__rating__details">(6) - USA</a>
-      </p>
-      <p className="Card__heading">Life lessons with Katie Zaferes</p>
-      <p>
-        <a className="Card__price">From $136</a> / person
-      </p>
+      <div className="Card__text">
+        <p className="Card__rating">
+          <img src={Star} className="Card__rating__star"></img> 5.0{" "}
+          <span className="Card__rating__details">(6) - USA</span>
+        </p>
+        <p className="Card__heading">Life lessons with Katie Zaferes</p>
+        <p>
+          <span className="Card__price">From $136</span> / person
+        </p>
+      </div>
     </div>
   );
 }
